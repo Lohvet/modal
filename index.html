@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3">
+                <h2>G_LITO</h2>
+                <P>The Gaming Site.</P>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#mymodal">
+                    Continue
+                </button>
+
+                <div class="modal fade" id="mymodal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bg-info">
+                                <h4>Pick A Game</h4>
+                            </div>
+                            <div class="modal-body">
+                                <label for="Game">Choose one:
+                                <select class="form-control">
+                                    <option>Select</option>
+                                    <option>Nba 2K</option>
+                                    <option>Asphalt 6</option>
+                                    <option>Call of Duty</option>
+                                    <option>Word Hunt</option>
+                                    <option>8 Ball Pool</option>
+                                    <option>Subway Surfer</option>
+                                  </select>
+                                </label>
+                            </div>
+                            <div class="modal-footer bg-info">
+                                <button type="button" class="btn btn-warning" data-toggle="modal" data-dismiss="modal" data-target="#mimodal">
+                                    Click
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal fade" id="mimodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bg-info">
+                                <h4>Input Data</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <div class="lb1">
+                                    <label for="firstname">First Name</label><br>
+                                    <input type="text" id="firstname">
+                                    </div>
+                                    <div class="lb2">
+                                    <label for="lastname">Last Name</label><br>
+                                    <input type="text" id="lastname">
+                                    </div>
+                                    <div class="lb3">
+                                    <label for="password">Password</label><br>
+                                    <input type="password" id="password">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer bg-info">
+                                <button class="btn btn-warning" data-toggle="modal" data-dismiss="modal" data-target="#modallast">Add Me</button>
+                                <button class="btn btn-warning" data-dismiss="modal">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="modallast">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-body bg-warning">
+                                <h4>Successfully Added</h4>
+                                <p>Welcome &#127918;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to left, orange, green, pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+h2{
+    margin-top: 40px;
+    font-size: 58px;
+    font-weight: 700;
+    font-family: cursive;
+    letter-spacing: 3px;
+}
+p{
+    padding: 10px 0;
+    font-family: monospace;
+    font-size: 19px;
+}
+h4{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.modal-body{
+    font-family: monospace;
+}
+button{
+    font-family: sans-serif;
+}
